@@ -1,0 +1,36 @@
+body {
+  max-width: 900px;
+  margin: 0 auto 80px;
+  padding: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar-list {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#navbar-list li {
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+h1 {
+  font-size: 6.5em;
+  margin: 80px 0 20px 0;
+}
+
+.hero {
+  height: 90vh;
+}
+
+#first-section, #second-section, #third-section, #fourth-section {
+  height: 95vh;
+}
+
+.active-section{
+  background: blue;
+}
